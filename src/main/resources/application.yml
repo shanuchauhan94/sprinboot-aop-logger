@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: payment-log-service
+
+  output:
+    ansi:
+      enabled: always
+
+server:
+  port: 9090
+
+logging:
+  level:
+    root: WARN
+    com:
+      spring:
+        aop:
+          configuration: DEBUG
+
+
+
+
+
